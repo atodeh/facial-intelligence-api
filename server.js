@@ -22,6 +22,8 @@ const app = express();
 app.use(express.json()); //built-in middleware that parses JSON
 app.use(cors());
 
+app.get('/', (req, res) => { res.send("Success!") });
+
 app.post('/signin', (req,res) => { signin.handleSignin(req, res, db, bcrypt) });
 
 app.post('/register', (req, res) => { register.handleRegister(req, res, db, bcrypt) });
