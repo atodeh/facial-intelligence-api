@@ -1,8 +1,9 @@
 const Clarifai = require('clarifai'); //allows us to use installed clarifai API
 
-//setting up clarifai API with my own personal API key
+/*setting up clarifai API with my own personal API key...for
+security reasons, API key has been moved to config variables*/
 const app = new Clarifai.App({
-  apiKey: '87478a6bf12d4a3db14659e06980bbd7'
+  apiKey: process.env.API_CLARIFAI
 });
 
 const handleApiCall = (req, res) => {
