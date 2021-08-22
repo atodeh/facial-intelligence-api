@@ -2,7 +2,7 @@
 
 A live working demo can be found [here deployed](https://facial-intelligence.herokuapp.com/) on Heroku.
 
-Front-end for facial-intelligence project: [facial-intelligence-api](https://github.com/atodeh/facial-intelligence).
+Front-end for facial-intelligence project: [facial-intelligence](https://github.com/atodeh/facial-intelligence).
 
 ## Frameworks / Packages / Libraries used for Back-End
 * [bcrypt-nodejs](https://www.npmjs.com/package/bcrypt-nodejs)
